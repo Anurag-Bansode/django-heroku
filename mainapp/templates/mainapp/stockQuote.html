@@ -1,0 +1,27 @@
+{% extends 'mainapp/base.html' %}
+{% block tickerbody %}
+
+<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">STOCK</th>
+        <th scope="col">CurrentPrice</th>
+        <th scope="col">change</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>BTC</td>
+        <td>{{data.c}}</td>
+        <td>{{data.d}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
+
+{% endblock %}
