@@ -1,1 +1,1 @@
-web: gunicorn coinmarket.wsgi
+web: gunicorn coinmarketpi.wsgi
